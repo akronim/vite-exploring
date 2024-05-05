@@ -8,7 +8,7 @@ npm install
 ### add vite-plugin-inspect
 - https://github.com/antfu-collective/vite-plugin-inspect
 ```bash
-npm i vite-plugin-inspect
+npm i vite-plugin-inspect -D
 ```
 - visit: http://localhost:5173/__inspect/
 
