@@ -6,3 +6,24 @@ import imgRaw from './src/assets/img/javascript.svg?raw';
 
 console.log(imgUrl);
 console.log(imgRaw);
+
+// "glob" modules will be dynamically imported, unless: eager: true
+const modules = import.meta.glob('./src/10/*.js',
+    {
+        //eager: true
+        //as: 'raw'
+        //as: 'url'
+        //import: 'age'
+        //import: 'default'
+    }
+);
+
+document.addEventListener('click', () => {
+    console.log(modules);
+    Object.values(modules).forEach((module) => {
+        module().then((data) => {
+            console.log(data)
+        })
+    })
+})
+

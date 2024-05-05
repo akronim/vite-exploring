@@ -32,3 +32,6 @@ npm i -D sass
 ### public folder
 - files inside it can not be referenced from within source code files like main.js
 - files inside it are not processed by vite
+
+### glob function
+- to import multiple modules
