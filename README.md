@@ -35,3 +35,7 @@ npm i -D sass
 
 ### glob function
 - to import multiple modules
+
+### jsx support
+- by configuring "esbuild" property inside vite.config.js
+

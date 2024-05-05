@@ -3,6 +3,7 @@ import './src/assets/05.css';
 import './src/assets/06.scss';
 import imgUrl from './src/assets/img/javascript.svg';
 import imgRaw from './src/assets/img/javascript.svg?raw';
+import { template } from './src/12.jsx';
 
 console.log(imgUrl);
 console.log(imgRaw);
@@ -27,3 +28,5 @@ document.addEventListener('click', () => {
     })
 })
 
+console.log(template.outerHTML);
+document.querySelector('#app').appendChild(template);
