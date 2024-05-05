@@ -23,3 +23,8 @@ npm install collect.js --save
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
+
+### add Sass
+```bash
+npm i -D sass
+```
