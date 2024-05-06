@@ -68,3 +68,30 @@ npx eslint .
 ```bash
 npm run build -- --mode=staging
 ```
+
+### library mode
+#### link
+- lib
+```bash
+npm link
+```
+- app
+```bash
+npm link pluck
+```
+
+#### unlink
+- app
+```bash
+npm unlink pluck
+```
+- lib
+```bash
+npm uninstall --global
+```
+
+#### link info
+```bash
+npm ls --global pluck
+npm ls --link --global
+```
