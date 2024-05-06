@@ -39,3 +39,15 @@ npm i -D sass
 ### jsx support
 - by configuring "esbuild" property inside vite.config.js
 
+### typescript
+```bash
+npm i -D typescript
+```
+- crate tsconfig.json
+
+### add vite-plugin-checker
+- for type checking in worker thread and more
+- erros will be reported in browser
+```bash
+npm i -D vite-plugin-checker
+```
