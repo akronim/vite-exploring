@@ -30,3 +30,5 @@ document.addEventListener('click', () => {
 
 console.log(template.outerHTML);
 document.querySelector('#app').appendChild(template);
+
+console.log(import.meta.env)

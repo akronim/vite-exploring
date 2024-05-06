@@ -20,5 +20,6 @@ export default {
     alias: {
       '@': path.resolve(__dirname, './src')
     }
-  }
+  },
+  //envPrefix: 'APP_'
 }

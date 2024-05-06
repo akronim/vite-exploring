@@ -63,3 +63,8 @@ npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugi
 ```bash
 npx eslint .
 ```
+
+### env
+```bash
+npm run build -- --mode=staging
+```
