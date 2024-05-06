@@ -51,3 +51,15 @@ npm i -D typescript
 ```bash
 npm i -D vite-plugin-checker
 ```
+
+### ESLint
+#### add typescript-eslint
+```bash
+npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+```
+- create: .eslintignore
+- create: .eslintrc.cjs
+#### run
+```bash
+npx eslint .
+```

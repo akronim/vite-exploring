@@ -9,7 +9,10 @@ export default {
   plugins: [
     Inspect(),
     checker({
-      typescript: true
+      typescript: true,
+      eslint: {
+        lintCommand: 'eslint "./**/*.{ts,tsx}"',
+      },
     })
   ],
 }
