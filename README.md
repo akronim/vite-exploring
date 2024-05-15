@@ -88,10 +88,30 @@ npm unlink pluck
 - lib
 ```bash
 npm uninstall --global
+npm unlink --global
+npm rm --global pluck
 ```
 
 #### link info
 ```bash
 npm ls --global pluck
 npm ls --link --global
+npm ls --global --depth=0
+```
+
+#### clear npm cache
+```bash
+npm cache clear --force
+```
+
+### publishing NPM package
+#### lib
+```bash
+npm login
+npm publish --access public
+npm version patch
+```
+#### app
+```bash
+npm install @marinko_m/pluck --save
 ```
