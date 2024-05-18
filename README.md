@@ -115,3 +115,12 @@ npm version patch
 ```bash
 npm install @marinko_m/pluck --save
 ```
+
+### vs-code file-size extension
+
+### vite-plugin-image-optimizer
+```bash
+npm install vite-plugin-image-optimizer --save-dev
+npm install sharp --save-dev
+npm install svgo --save-dev
+```
