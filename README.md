@@ -124,3 +124,11 @@ npm install vite-plugin-image-optimizer --save-dev
 npm install sharp --save-dev
 npm install svgo --save-dev
 ```
+
+### plugins
+https://vitejs.dev/plugins/
+https://github.com/vitejs/awesome-vite
+
+### rollup plugins
+https://vite-rollup-plugins.patak.dev/
+https://github.com/rollup/awesome
