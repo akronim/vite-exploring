@@ -132,3 +132,13 @@ https://github.com/vitejs/awesome-vite
 ### rollup plugins
 https://vite-rollup-plugins.patak.dev/
 https://github.com/rollup/awesome
+
+### vue integration
+```bash
+npm install vue @vitejs/plugin-vue
+```
+
+
+```bash
+
+```
