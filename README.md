@@ -138,7 +138,7 @@ https://github.com/rollup/awesome
 npm install vue @vitejs/plugin-vue
 ```
 
-
+### react integration
 ```bash
-
+npm install react react-dom @vitejs/plugin-react
 ```
