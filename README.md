@@ -1,6 +1,14 @@
-### creating
 ```bash
 nvm use 18
+```
+
+### creating - 1
+```bash
+npm install --save-dev vite
+```
+
+### creating
+```bash
 npm create vite@latest
 npm install
 ```
