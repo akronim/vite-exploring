@@ -69,6 +69,7 @@ npx eslint .
 ```bash
 npm install --save-dev husky
 npx husky init
+npm install lint-staged -D
 ```
 
 ### env

@@ -1,3 +1,3 @@
 cd eslint-integration
 
-npm run tsc && npm run lint
+npm run lint-staged
