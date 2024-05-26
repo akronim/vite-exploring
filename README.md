@@ -67,8 +67,17 @@ npx eslint .
 ```
 
 ### env
+- .env => loaded in all cases
+- .env.local => loaded in all cases, ignored by git
+- .env.[mode] => only loaded in specific mode
+- .env.[mode].local => only loaded in specific mode, ignored by git
+#### build in custom mode
 ```bash
 npm run build -- --mode=staging
+```
+#### highest priority
+```bash
+VITE_API_URL=special.api.url npm run dev
 ```
 
 ### library mode
