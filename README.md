@@ -65,6 +65,11 @@ npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugi
 ```bash
 npx eslint .
 ```
+#### Husky - to automate ESLint on commits
+```bash
+npm install --save-dev husky
+npx husky init
+```
 
 ### env
 - .env => loaded in all cases
