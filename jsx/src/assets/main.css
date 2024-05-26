@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; }
+
+.wrapper {
+    background-color: black;
+    height: 200px;
+    padding: 10px;
+}
+
+.wrapper a {
+    color: orange;
+}
