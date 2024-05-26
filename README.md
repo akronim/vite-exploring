@@ -21,11 +21,6 @@ npm i vite-plugin-inspect -D
 - visit: http://localhost:5173/__inspect/
 
 
-### add collect.js
-```bash
-npm install collect.js --save
-```
-
 ### add tailwind, postcss, autoprefixer
 ```bash
 npm install -D tailwindcss postcss autoprefixer
